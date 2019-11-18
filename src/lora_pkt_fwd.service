@@ -12,7 +12,7 @@ ExecStartPre=/usr/bin/reset_lgw.sh start
 ExecStart=/usr/bin/lora_pkt_fwd
 StartLimitBurst=15
 StartLimitInterval=45
-RestartSec=1
+RestartSec=10
 Restart=on-failure
 
 [Install]
