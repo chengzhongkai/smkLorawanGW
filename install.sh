@@ -56,7 +56,7 @@ chown -R "$PKT_FWD_USERNAME":"$PKT_FWD_USERNAME" /etc/lora_pkt_fwd
 echo Copying binary
 cp ./packet_forwarder/lora_pkt_fwd/lora_pkt_fwd /usr/bin/lora_pkt_fwd
 cp ./src/lgw.sh /usr/bin/reset_lgw.sh
-chown "$PKT_FWD_USERNAME":"$PKT_FWD_USERNAME" /usr/local/bin/lora_pkt_fwd
+chown "$PKT_FWD_USERNAME":"$PKT_FWD_USERNAME" /usr/bin/lora_pkt_fwd
 
 
 echo Setting gateawy ID

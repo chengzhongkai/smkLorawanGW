@@ -7,5 +7,8 @@ SMK custom Lorawan gateway
 ## Install
 `sudo ./install.sh`
 
+## get log 
+`sudo journalctl -u lora_pkt_fwd.service`
+
 ## SMK Lorawan Node
 You can send uplink by script ./src/smkNodeAt.py
