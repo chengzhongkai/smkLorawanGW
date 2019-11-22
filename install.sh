@@ -66,6 +66,7 @@ echo Installing systemd service file
 
 cp -f ./src/lora_pkt_fwd.service /etc/systemd/system/lora_pkt_fwd.service
 systemctl enable lora_pkt_fwd
+systemctl start lora_pkt_fwd
 
 echo Clear temp files
 rm -rf packet_forwarder

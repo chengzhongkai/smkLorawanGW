@@ -2,9 +2,11 @@
 SMK custom Lorawan gateway
 
 ## Download source
+`sudo apt install git`  
 `git clone https://github.com/chengzhongkai/smkLorawanGW.git`
 
 ## Install
+`cd smkLorawanGW`  
 `sudo ./install.sh`
 
 ## get log 
